@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize Windows</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root" onmouseup="onMouseEvent(false)" onmousemove="onMouseMove()">
+        <div class="left-window">
+            <p>Left Window</p>
+        </div>
+        <div class="right-window">
+            <p>Right Window</p>
+        </div>
+
+        <div class="dragger" onmousedown="onMouseEvent(true)">
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
